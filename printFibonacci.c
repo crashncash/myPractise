@@ -28,10 +28,11 @@ void printFibonacci(int count)
     
 }
 
-int main(int argc, char **argv)
+int main(int argc,char **argv)
 {
-    printf("Hello World");
+    
     int count = atoi(argv[1]);
+    printf("First %d fibonacci numbers are : ",count);
     printFibonacci(count);
 
     return 0;
